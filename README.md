@@ -9,7 +9,6 @@ Welcome to the Blog Webpage Project! This project is designed to create a simple
 - [Getting Started](#getting-started)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
