@@ -1,0 +1,25 @@
+@media screen and (max-width: 1380px) {
+  .navigation {
+    flex-direction: column;
+    margin-bottom: 23px;
+  }
+
+  .nav-left {
+    flex-direction: column;
+    text-align: center;
+    padding: 2vw;
+  }
+
+  .content-right {
+    display: none;
+  }
+
+  .home-article {
+    flex-direction: column;
+    display: flex;
+    margin: 25px;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+  }
+}

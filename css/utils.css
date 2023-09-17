@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap");
+
+:root {
+  --main-bg-color: rgb(11, 136, 94);
+  --font1: "Poppins", sans-serif;
+  --font2: "Roboto Condensed", sans-serif;
+}
+
+.font1 {
+  font-family: var(--font1);
+}
+
+.font2 {
+  font-family: var(--font2);
+}
+
+.max-width-1 {
+  max-width: 80vw;
+}
+
+.max-width-2 {
+  max-width: 60vw;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.mx-1 {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.my-2 {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.form-input {
+  padding: 5px 15px;
+  font-size: 16px;
+  outline: none;
+  background-color: transparent;
+  border: 2px solid black;
+  border-radius: 33px;
+  margin: 0px 2px;
+  margin-bottom: 8px;
+  font-family: var(--font1);
+}
+
+.form-input:hover {
+  background-color: #7fffd4;
+  transition: all 0.3s ease-in-out;
+}
+
+.form-input::placeholder {
+  color: black;
+}
+
+.btn {
+  border: 2px solid black;
+  padding: 4px 11px;
+  border-radius: 33px;
+  font-size: 16px;
+  font-family: var(--font1);
+  background-color: var(--main-bg-color);
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: black;
+  background-color: #7fffd4;
+  transition: all 0.3s ease-in-out;
+}

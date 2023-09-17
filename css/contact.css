@@ -1,0 +1,31 @@
+.contact-content {
+  height: 90vh;
+  width: 100%;
+  display: block;
+  margin-top: 13px;
+  padding: 9px;
+  position: relative;
+  overflow: hidden;
+}
+
+.contact-content::after {
+  content: "";
+  background-image: url("../img/img1.jpeg");
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+  height: inherit;
+  opacity: 0.17;
+  top: 0px;
+}
+
+.form-box input,
+textarea {
+  width: 33vw;
+  padding: 5px 13px;
+  margin: 2px 0;
+  border: 2px solid black;
+  border-radius: 8px;
+  font-size: 15px;
+  font-family: var(--font2);
+}
